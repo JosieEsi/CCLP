@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCLP - Get Involved</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="get-involved.html">Get Involved</a></li>
+                <li><a href="donate.html">Donate</a></li>
+                <li><a href="impact.html">Impact</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="get-involved">
+            <img src="./web Dev/pictures/IMG_2242.jpg" alt="">
+            <h1>Get Involved</h1>
+            <p>Become a part of our mission by volunteering or participating in our programs.</p>
+            <h2>Volunteer Opportunities</h2>
+            <p>Join us as a volunteer to help organize reading clubs, competitions, and more.</p>
+            <form id="volunteer-form" action="submit_volunteer_form" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Why do you want to volunteer?</label><br>
+                <textarea id="message" name="message" required></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 CCLP. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

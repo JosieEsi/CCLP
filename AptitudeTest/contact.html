@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCLP - Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="get-involved.html">Get Involved</a></li>
+                <li><a href="donate.html">Donate</a></li>
+                <li><a href="impact.html">Impact</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact">
+            <img src="./web Dev/pictures/IMG_6753.jpg" alt="">
+            <h1>Contact Us</h1>
+            <p>If you have any questions or need more information, please contact us using the form below.</p>
+            <form id="contact-form" action="submit_contact_form" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" required></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+            <h2>Our Address</h2>
+            <p>123 Cocoa Community Road, Ahafo Ano, Ashanti Region, Ghana</p>
+            <h2>Email</h2>
+            <p><a href="mailto:info@cocoacommunitieslibrary.org">info@cocoacommunitieslibrary.org</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 CCLP. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
